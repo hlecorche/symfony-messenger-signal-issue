@@ -9,14 +9,14 @@
         "ext-iconv": "*",
         "doctrine/doctrine-bundle": "*",
         "doctrine/orm": "^2.16",
-        "symfony/console": "6.3.4",
+        "symfony/console": "6.3.x-dev",
         "symfony/doctrine-messenger": "^6.3",
-        "symfony/dotenv": "6.3.*",
+        "symfony/dotenv": "6.3.x-dev",
         "symfony/flex": "^2",
-        "symfony/framework-bundle": "6.3.4",
-        "symfony/messenger": "6.3.4",
-        "symfony/runtime": "6.3.*",
-        "symfony/yaml": "6.3.*"
+        "symfony/framework-bundle": "6.3.x-dev",
+        "symfony/messenger": "6.3.x-dev",
+        "symfony/runtime": "6.3.x-dev",
+        "symfony/yaml": "6.3.x-dev"
     },
     "config": {
         "allow-plugins": {
@@ -63,7 +63,8 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "6.3.*"
+            "require": "6.3.x-dev"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
